@@ -1,0 +1,16 @@
+{
+    "name": "inanimatt/oauth2-server-dbal",
+    "description": "Doctrine DBAL storage implementation for thephpleague/oauth2-server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Robinson",
+            "email": "matt@inanimatt.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inanimatt\\OAuth2\\Server\\Storage\\DBAL\\": "src"
+        }
+    }
+}
